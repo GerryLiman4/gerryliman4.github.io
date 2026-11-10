@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gerry Liman | Backend and Game Developer</title>
+  <meta name="description" content="Gerry Liman is a backend and game developer working with Java, Spring Boot and SQL, with experience across banking applications and game development.">
+  <meta property="og:title" content="Gerry Liman | Backend and Game Developer">
+  <meta property="og:description" content="Java, Spring Boot and SQL, with experience across banking applications and game development.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23004ce7'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' text-anchor='middle' fill='%23ffffff'%3EGL%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero dotted">
+    <nav class="nav wrap" aria-label="Main">
+      <a class="nav-name" href="#top">Gerry Liman</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-body wrap" id="top">
+      <div>
+        <h1>Hi,<br>I'm <span class="accent">Gerry Liman.</span></h1>
+        <p class="hero-lead">Backend and game developer building dependable applications with Java and Spring Boot.</p>
+        <a class="button" href="#work">See my work</a>
+      </div>
+
+      <div class="code-window" aria-hidden="true">
+        <div class="code-bar"><span></span><span></span><span></span></div>
+<pre><code><b>@RestController</b>
+class ProfileController {
+
+  <b>@GetMapping</b>("/profile")
+  Profile profile() {
+    return new Profile(
+      <i>"Gerry Liman"</i>,
+      <i>"Backend and Game Developer"</i>,
+      List.of(<i>"Java"</i>, <i>"Spring Boot"</i>, <i>"SQL"</i>)
+    );
+  }
+}</code></pre>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <div class="wrap split">
+        <h2>About me</h2>
+        <div class="about-text">
+          <p class="about-lead">I'm a backend and game developer. I've maintained internal business applications using Flutter and Spring Boot, and built game systems and features in Godot and Unity.</p>
+          <p>I'm familiar with SQL and PL/SQL, API-integrated features, maintainable system design, code review, documentation and working across teams.</p>
+          <dl class="facts">
+            <div>
+              <dt>Education</dt>
+              <dd>Bachelor of Computer Science, Information Technology, Bina Nusantara University (2021), GPA 3.65</dd>
+            </div>
+            <div>
+              <dt>Training</dt>
+              <dd>Database Programming with SQL and PL/SQL (Oracle Academy); C# and JavaScript Fundamentals (SoloLearn)</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="wrap split">
+        <h2>What I<br>work with</h2>
+        <div class="skill-list">
+          <article>
+            <h3>Backend and data</h3>
+            <p>Java, Spring Boot, SQL and PL/SQL.</p>
+          </article>
+          <article>
+            <h3>Applications and integration</h3>
+            <p>Flutter, PEGA and REST API integration.</p>
+          </article>
+          <article>
+            <h3>Engineering practices</h3>
+            <p>GitLab, clean code, SOLID principles, code review and technical documentation.</p>
+          </article>
+          <article>
+            <h3>Other languages and platforms</h3>
+            <p>C#, Unity and Godot.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="wrap">
+        <h2>Things I've worked on</h2>
+        <p class="section-lead">From a mobile loan application to the systems behind shipped games.</p>
+        <div class="project-grid">
+          <article>
+            <p class="project-place">Bank Sinarmas</p>
+            <h3>Simaslead</h3>
+            <p>A mobile loan application, created in collaboration with the project manager and business analyst.</p>
+          </article>
+          <article>
+            <p class="project-place">Ikadev Studio &middot; Godot</p>
+            <h3>Sunny Side Crossing</h3>
+            <p>Core system modules for the game, including its save, time and inventory systems.</p>
+          </article>
+          <article>
+            <p class="project-place">Partnered with Ikadev Studio</p>
+            <h3>Nights In Endless Dream</h3>
+            <p>Programmed and published on Steam, while coordinating project, design and writing responsibilities.</p>
+          </article>
+          <article>
+            <p class="project-place">Anantarupa Studios &middot; Unity</p>
+            <h3>Lokapala</h3>
+            <p>Developed and maintained features, including menu UI that consumed backend APIs to retrieve data.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="wrap">
+        <div class="experience-head">
+          <h2>Where I've worked</h2>
+          <a class="button" href="Gerry_Liman_cv_be.pdf">Download my CV</a>
+        </div>
+        <ol class="timeline">
+          <li>
+            <p class="timeline-date">Nov 2025 &ndash; Feb 2026</p>
+            <div>
+              <h3>Game Developer</h3>
+              <p class="timeline-place">Partnered with Ikadev Studio</p>
+            </div>
+            <img class="timeline-image" src="images/niedcapsule.jpg" alt="Nights In Endless Dream game artwork" width="460" height="215" loading="lazy">
+          </li>
+          <li>
+            <p class="timeline-date">Sep 2023 &ndash; Oct 2025</p>
+            <div>
+              <h3>Game Developer, Godot</h3>
+              <p class="timeline-place">Ikadev Studio</p>
+              <p>Built core modules, reviewed team code for clean and SOLID practices, organized priorities and maintained feature documentation.</p>
+            </div>
+            <img class="timeline-image" src="images/ssccapsule.jpg" alt="Sunny Side Crossing game artwork" width="460" height="215" loading="lazy">
+          </li>
+          <li>
+            <p class="timeline-date">Aug 2022 &ndash; Mar 2023</p>
+            <div>
+              <h3>Unity Developer</h3>
+              <p class="timeline-place">Anantarupa Studios</p>
+              <p>Delivered features with game designers, QA, artists and backend engineers.</p>
+            </div>
+            <img class="timeline-image" src="images/lokapala-wide.jpg" alt="Lokapala game artwork" width="920" height="430" loading="lazy">
+          </li>
+          <li>
+            <p class="timeline-date">Mar 2020 &ndash; Jul 2022</p>
+            <div>
+              <h3>IT Customer Service System Development Junior Officer</h3>
+              <p class="timeline-place">PT. Bank Sinarmas Tbk.</p>
+              <p>Developed and maintained internal mobile applications using Flutter and Spring Boot, and maintained the customer service application system using PEGA.</p>
+            </div>
+            <img class="timeline-image timeline-image-logo" src="images/simasleadlogo.jpg" alt="Simaslead app logo" width="240" height="240" loading="lazy">
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-layout">
+        <div>
+          <h2>Let's build something dependable</h2>
+          <p class="contact-lead">Have a role or project in mind? Send me a message and I'll get back to you.</p>
+          <ul class="social">
+            <li><a href="https://www.linkedin.com/in/gerryliman" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://gitlab.com/liman.gerry" rel="noopener">GitLab</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" autocomplete="name" required maxlength="100">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required maxlength="200">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required maxlength="5000"></textarea>
+
+          <button class="button" type="submit">Send message</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">&copy; 2026 Gerry Liman</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

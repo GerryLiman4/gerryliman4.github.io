@@ -1,0 +1,7 @@
+.env.local
+.vercel
+node_modules
+private/
+.claude/
+images/lokapala.jpg
+images/nied.webm
