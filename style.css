@@ -483,6 +483,20 @@ h1 {
   resize: vertical;
 }
 
+.contact-form .button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+  transform: none;
+}
+
+.form-trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .form-status {
   min-height: 1.6em;
   margin-top: 1rem;

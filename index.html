@@ -194,6 +194,12 @@ class ProfileController {
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" required maxlength="5000"></textarea>
 
+          <!-- Spam trap: hidden from people, so only bots fill it in -->
+          <div class="form-trap" aria-hidden="true">
+            <label for="website">Website</label>
+            <input id="website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+
           <button class="button" type="submit">Send message</button>
           <p class="form-status" id="form-status" role="status"></p>
         </form>
