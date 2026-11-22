@@ -1,3 +1,9 @@
+// Plays the work section's background video, unless the visitor prefers reduced motion.
+const workVideo = document.querySelector(".work-video");
+if (workVideo && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  workVideo.play().catch(() => {});
+}
+
 // Sends the contact form to the backend on Vercel, which saves it in the database.
 const API_URL = "https://gerryliman4githubio.vercel.app/api/contact";
 
